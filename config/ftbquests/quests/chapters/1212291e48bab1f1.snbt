@@ -77,11 +77,11 @@
 				item: { count: 1, id: "create_dragons_plus:blaze_upgrade_smithing_template" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["6F35BCD4E13227EE"]
+			dependencies: ["4DA533D81D74248C"]
 			icon: {
 				components: {
 					"ftbquests:icon": "brewery:textures/mob_effect/mining.png"
@@ -93,7 +93,7 @@
 				id: "040D871F4ECD75A8"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -109,7 +109,7 @@
 				id: "5524E0CADEDF0F9A"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -122,7 +122,7 @@
 				id: "2BF9854D13B0B872"
 				type: "checkmark"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: -1.5d
 		}
 	]
