@@ -14,6 +14,7 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'pocket:empty_box' })
   event.remove({ output: 'pocket:display_bottle' })
   event.remove({ output: 'pocket:brass_display_case' })
+  event.remove({ output: 'let_it_walk:jet_foot' })
   event.recipes.create.mixing([Item.of('minecraft:end_stone', 8)], [Fluid.of('supplementaries:lumisene', 250), Item.of('minecraft:cobblestone', 8), 'minecraft:ender_pearl']).superheated()
   event.recipes.create.compacting(['minecraft:cobblestone'], [Fluid.of('minecraft:water', 500), Fluid.of('minecraft:lava', 500)])
   event.shaped(
