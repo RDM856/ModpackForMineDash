@@ -1,0 +1,129 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1212291e48bab1f1"
+	group: ""
+	id: "1212291E48BAB1F1"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "nclskins:textures/gui/icons/action/open_account.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4DA533D81D74248C"
+			tasks: [{
+				id: "06306252C1EB7664"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DA533D81D74248C"]
+			id: "781D64947CC5E406"
+			tasks: [
+				{
+					id: "4171DB92602AD52F"
+					item: { count: 1, id: "minecraft:jack_o_lantern" }
+					type: "item"
+				}
+				{
+					id: "4757167A91576C15"
+					item: { count: 1, id: "minecraft:lightning_rod" }
+					type: "item"
+				}
+				{
+					id: "1D8ECB1AF99AF9A4"
+					item: { count: 1, id: "minecraft:flint_and_steel" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["781D64947CC5E406"]
+			id: "347650588523B771"
+			tasks: [{
+				id: "3FAC91960A2DA4ED"
+				item: { count: 1, id: "create:haunted_bell" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["347650588523B771"]
+			id: "215C035515960001"
+			tasks: [{
+				id: "697A182CDB49A319"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DA533D81D74248C"]
+			id: "6F35BCD4E13227EE"
+			tasks: [{
+				id: "6564D439C3C923E4"
+				item: { count: 1, id: "create_dragons_plus:blaze_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DA533D81D74248C"]
+			icon: {
+				components: {
+					"ftbquests:icon": "brewery:textures/mob_effect/mining.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "634F3A442A565C68"
+			tasks: [{
+				id: "040D871F4ECD75A8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["634F3A442A565C68"]
+			icon: {
+				components: {
+					"ftbquests:icon": "create:item/minecart_contraption"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "58DBA673E6C82D61"
+			tasks: [{
+				id: "5524E0CADEDF0F9A"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["58DBA673E6C82D61"]
+			icon: {
+				id: "minecraft:cobblestone"
+			}
+			id: "7B048E5A16D0B26B"
+			tasks: [{
+				id: "2BF9854D13B0B872"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+	]
+}
